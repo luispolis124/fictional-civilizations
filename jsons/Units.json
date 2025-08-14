@@ -1,18 +1,17 @@
 [
 	{
-		"name": "Naianas",
-		"unitType": "Sword",
+		"name": "Phasers",
+		"unitType": "Ranged",
 		"uniqueTo": "Naianas",
 		"replaces": "Warrior",
-		"movement": 6,
-		"strength": 30,
+		"movement": 2,
+		"strength": 90,
 		"rangedStrength": 36,
 		"range": 2,
 		"cost": 500,
-		"requiredTech": "Metal Casting",
+		"requiredTech": "Ballistics",
 		"requiredResource": "Uranium",
-		"promotions": ["[Naianas] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "phasers"
 	}
 ]
