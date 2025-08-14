@@ -13,7 +13,7 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Breeders",
+		"name": "Kuiatonus",
 		"replaces": "Aqueduct",
 		"uniqueTo": "Naianas",
 		"cost": 80,
