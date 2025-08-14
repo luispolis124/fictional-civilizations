@@ -5,6 +5,7 @@
 		"adjective": ["naianas"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Tuzuki",
 		
 		"startIntroPart1": "I came in peace to restore life",
 		"startIntroPart2": "Life is an eternal restoration that when you use it, you can restore it.",
@@ -29,6 +30,7 @@
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
+		"uniqueName": "Sacrificial of Naianas",
 		"unique": "MANIFEST_DESTINY",
 		"favoredReligion": "Christianity",
 		"uniqueName": "Long Live the King",
