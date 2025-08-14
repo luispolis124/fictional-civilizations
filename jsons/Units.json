@@ -11,7 +11,7 @@
 		"cost": 500,
 		"requiredTech": "Metal Casting",
 		"requiredResource": "Uranium",
-		"promotions": ["[Cheetahs] ability","Woodsman"],
+		"promotions": ["[Naianas] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	}
