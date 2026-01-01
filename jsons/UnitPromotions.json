@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Heal Instantly",
+    "uniques": [
+      "[This Unit] heals [50] HP",
+      "Doing so will consume this opportunity to choose a Promotion"
+    ],
+    "unitTypes": [
+      "Sword", "Gunpowder", "Mounted", "Scout", "Siege", "Archery",
+      "Ranged Gunpowder", "Armored", "Melee Water", "Ranged Water", "Submarine"
+    ],
+    "innerColor": [195, 53, 43],
+    "outerColor": [253, 236, 234],
+    "row": 0,
+    "column": 0
+  },
+  {
+    "name": "Accuracy I",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+      "[-90]% weight to this choice for AI decisions"
+    ],
+    "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
+    "column": 1,
+    "row": 1
+  },
+  {
+    "name": "Accuracy II",
+    "prerequisites": ["Accuracy I"],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+    ],
+    "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
+    "column": 1,
+    "row": 2
+  },
+  {
+    "name": "Accuracy III",
+    "prerequisites": ["Accuracy II"],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+    ],
+    "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
+    "column": 1,
+    "row": 3
+  },
+
+  // 🔮 Promoções exclusivas para Naianas
+  {
+    "name": "Jungle Ambush",
+    "uniqueTo": "Naianas",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Jungle] tiles>",
+      "[+1] Movement <when starting turn in [Jungle]>"
+    ],
+    "unitTypes": ["Scout", "Mounted", "Sword", "Archery"],
+    "innerColor": [34, 139, 34],
+    "outerColor": [144, 238, 144],
+    "row": 2,
+    "column": 0
+  },
+  {
+    "name": "Spiritual Focus",
+    "uniqueTo": "Naianas",
+    "uniques": [
+      "[+10]% Strength <when adjacent to a friendly Religious unit>",
+      "[+1] Faith per kill"
+    ],
+    "unitTypes": ["Sword", "Gunpowder", "Mounted"],
+    "innerColor": [138, 43, 226],
+    "outerColor": [216, 191, 216],
+    "row": 3,
+    "column": 0
+  },
+  {
+    "name": "Sacred Precision",
+    "uniqueTo": "Naianas",
+    "uniques": [
+      "[+20]% Ranged Strength <when attacking cities>",
+      "[+1] XP from ranged attacks"
+    ],
+    "unitTypes": ["Archery", "Ranged Gunpowder"],
+    "innerColor": [255, 215, 0],
+    "outerColor": [255, 250, 205],
+    "row": 4,
+    "column": 1
+  }
+]
