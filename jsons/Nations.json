@@ -1,42 +1,46 @@
 [
-	{
-		"name": "Naianas",
-		"leaderName": "Tuzuki",
-		"adjective": ["naianas"],
-		"startBias": ["Jungle"],
-		"preferredVictoryType": "Cultural",
-		"personality": "Tuzuki",
-		
-		"startIntroPart1": "I came in peace to restore life",
-		"startIntroPart2": "Life is an eternal restoration that when you use it, you can restore it.",
-		
-		"declaringWar": "But how angry it makes me, I will declare war on the eternal gods",
-		"attacked": "thought I was joking",
-		"defeated": "this is impossible, as you defeated me, but soon I will defeat you",
-		"introduction": "my civilization is completely cool to see how the gods believed in us",
-		
-		"neutralHello": "Hello, how are you?",
-		"neutralLetsHearIt": ["so go ahead.","but what did you really say","are you helping me or something"],
-		"neutralNo": ["We decline your offer","I said no","I refuse to give you to me"],
-		"neutralYes": ["very good, thank you very much","we accept your offer","I said yes"],
+  {
+    "name": "Naianas",
+    "leaderName": "Tuzuki",
+    "adjective": ["naianas"],
+    "startBias": ["Jungle"],
+    "preferredVictoryType": "Cultural",
+    "personality": "Tuzuki",
 
-		"hateHello": "hello my favorite enemy",
-		"hateLetsHearIt": ["talk a little!","what did you say","go ahead"],
-		"hateNo": ["this is not possible because I don't want to","we do not accept your offer again","I forgive you"],
-		"hateYes": ["ok then since you will ask","okay, I'll do it","very good, I thank you..."],
-		
-		"afterPeace": "we make peace but please don't do it again ok",
-		"tradeRequest": "Your offer is on its way to your Tuzuki",
+    "startIntroPart1": "I came in peace to restore life.",
+    "startIntroPart2": "Life is an eternal restoration — when you use it, you can restore it.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"uniqueName": "Sacrificial of Naianas",
-		"unique": "MANIFEST_DESTINY",
-		"favoredReligion": "Naianism",
-		"uniqueName": "Long Live the King",
-		"cities": ["Doutu","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+    "declaringWar": "Your actions anger the spirits. I declare war in their name!",
+    "attacked": "You thought I was joking? Now face the wrath of the Naianas.",
+    "defeated": "This is impossible... but I shall rise again, stronger than ever.",
+    "introduction": "Our civilization thrives under the gaze of the gods. Witness the glory of the Naianas!",
+
+    "neutralHello": "Greetings, traveler. What brings you here?",
+    "neutralLetsHearIt": ["Speak your mind.","What do you propose?","Are you offering something of value?"],
+    "neutralNo": ["We must decline.","That is not acceptable.","The spirits say no."],
+    "neutralYes": ["Agreed. May this benefit us both.","We accept your offer.","Yes, this pleases us."],
+
+    "hateHello": "So we meet again, enemy of the Naianas.",
+    "hateLetsHearIt": ["Speak, if you dare.","What nonsense is this?","Go on, amuse me."],
+    "hateNo": ["Never!","We reject your offer again.","You insult us with this."],
+    "hateYes": ["Fine. But don't expect mercy.","Very well, for now.","We accept, but we do not forget."],
+
+    "afterPeace": "Peace is restored — but do not test us again.",
+    "tradeRequest": "Your offer is being considered by Tuzuki.",
+
+    "outerColor": [16, 16, 16],
+    "innerColor": [255, 200, 200],
+    "icon": "LeopardHeaddress",  // símbolo representando leões ou guepardos no chapéu
+
+    "uniqueName": "Long Live the King",
+    "unique": "MANIFEST_DESTINY",
+    "favoredReligion": "Naianism",
+
+    "cities": [
+      "Doutu", "Q'Throczan", "Q'Chovex", "Q'Imphet", "Q'Omphead", "Q'Grecoks", "Q'Vrelzieks", "Q'Vronens", "Q'Aerlae",
+      "Q'Phulnoith", "Q'Creved", "Q'Xirqen", "Q'Gax", "Q'Threqals", "Q'Bhilmuk", "Q'Mazea", "Q'Zomirs", "Q'Drorkrex", "Q'Honkrath",
+      "Q'Zulgra", "Q'Vahars", "Q'Crindith", "Q'Raavraes", "Q'Bhoknais", "Qho'Qru", "Q'Dateatz", "Q'Elnad", "Q'Izien", "Qol'Ell",
+      "Q'Dhihien", "Q'Naquiel", "Q'Ugneon", "Q'Straquks", "Q'Nulptr", "Q'Ohfahl"
+    ]
+  }
 ]
