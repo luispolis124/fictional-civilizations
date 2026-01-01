@@ -1,1 +1,27 @@
-
+[
+  {
+    "name": "Ancestor Worship",
+    "type": "Pantheon",
+    "uniques": ["[+1 Culture] from every [Shrine]"]
+  },
+  {
+    "name": "Divine Restoration",
+    "type": "Founder",
+    "uniques": ["[+2 Faith] from every worked [Jungle] tile"]
+  },
+  {
+    "name": "Harmony of Life",
+    "type": "Follower",
+    "uniques": ["[+1 Happiness] for every 2 followers in a city"]
+  },
+  {
+    "name": "Path of the Ancients",
+    "type": "Enhancer",
+    "uniques": ["Missionaries can enter rival territory without open borders"]
+  },
+  {
+    "name": "Pyramid of Echoes",
+    "type": "Worship",
+    "uniques": ["[+2 Culture] and [+1 Faith] from [Shrines]"]
+  }
+]
