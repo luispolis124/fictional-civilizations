@@ -2,7 +2,7 @@
   {
     "name": "Heal Instantly",
     "uniques": [
-      "[This Unit] heals [50] HP",
+      "This Unit heals [50] HP",
       "Doing so will consume this opportunity to choose a Promotion"
     ],
     "unitTypes": [
@@ -17,7 +17,7 @@
   {
     "name": "Accuracy I",
     "uniques": [
-      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+      "[+15]% [Combat bonus] <when attacking> <in [Open terrain] tiles>",
       "[-90]% weight to this choice for AI decisions"
     ],
     "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
@@ -27,9 +27,7 @@
   {
     "name": "Accuracy II",
     "prerequisites": ["Accuracy I"],
-    "uniques": [
-      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
-    ],
+    "uniques": ["[+15]% [Combat bonus] <when attacking> <in [Open terrain] tiles>"],
     "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
     "column": 1,
     "row": 2
@@ -37,21 +35,17 @@
   {
     "name": "Accuracy III",
     "prerequisites": ["Accuracy II"],
-    "uniques": [
-      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
-    ],
+    "uniques": ["[+15]% [Combat bonus] <when attacking> <in [Open terrain] tiles>"],
     "unitTypes": ["Siege", "Archery", "Ranged Gunpowder"],
     "column": 1,
     "row": 3
   },
-
-  // 🔮 Promoções exclusivas para Naianas
   {
     "name": "Jungle Ambush",
     "uniqueTo": "Naianas",
     "uniques": [
-      "[+25]% Strength <when fighting in [Jungle] tiles>",
-      "[+1] Movement <when starting turn in [Jungle]>"
+      "[+25]% [Combat bonus] <in [Jungle] tiles>",
+      "[+1] Movement <starting in [Jungle] tiles>"
     ],
     "unitTypes": ["Scout", "Mounted", "Sword", "Archery"],
     "innerColor": [34, 139, 34],
@@ -63,8 +57,8 @@
     "name": "Spiritual Focus",
     "uniqueTo": "Naianas",
     "uniques": [
-      "[+10]% Strength <when adjacent to a friendly Religious unit>",
-      "[+1] Faith per kill"
+      "[+10]% [Combat bonus] <when adjacent to a [Religious] unit>",
+      "Earn [1] [Faith] from losing [Enemy] units"
     ],
     "unitTypes": ["Sword", "Gunpowder", "Mounted"],
     "innerColor": [138, 43, 226],
@@ -76,8 +70,8 @@
     "name": "Sacred Precision",
     "uniqueTo": "Naianas",
     "uniques": [
-      "[+20]% Ranged Strength <when attacking cities>",
-      "[+1] XP from ranged attacks"
+      "[+20]% [Ranged strength] <when attacking [City] units>",
+      "[+1] XP from [Ranged] attacks"
     ],
     "unitTypes": ["Archery", "Ranged Gunpowder"],
     "innerColor": [255, 215, 0],
