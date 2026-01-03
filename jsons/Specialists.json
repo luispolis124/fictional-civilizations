@@ -1,94 +1,29 @@
 [
   {
     "name": "Naian Scientist",
-    "uniqueTo": "Naianas",
     "science": 4,
-    "greatPersonPoints": { "Great Scientist": 3 },
-    "color": [0, 128, 255]
+    "greatPersonPoints": { "Great Scientist": 3 }
   },
   {
     "name": "Naian Merchant",
-    "uniqueTo": "Naianas",
     "gold": 4,
-    "greatPersonPoints": { "Great Merchant": 3 },
-    "color": [255, 200, 50]
+    "greatPersonPoints": { "Great Merchant": 3 }
   },
   {
     "name": "Naian Oracle",
-    "uniqueTo": "Naianas",
     "culture": 2,
     "faith": 2,
-    "greatPersonPoints": { "Great Prophet": 3 },
-    "color": [200, 100, 255]
+    "greatPersonPoints": { "Great Prophet": 3 }
   },
   {
     "name": "Naian Engineer",
-    "uniqueTo": "Naianas",
     "production": 3,
-    "greatPersonPoints": { "Great Engineer": 3 },
-    "color": [180, 180, 180]
-  },
-  {
-    "name": "Naian Warrior-Priest",
-    "uniqueTo": "Naianas",
-    "faith": 2,
-    "strength": 2,
-    "greatPersonPoints": { "Great General": 2 },
-    "color": [255, 80, 80]
+    "greatPersonPoints": { "Great Engineer": 3 }
   },
   {
     "name": "Naian Historian",
-    "uniqueTo": "Naianas",
     "culture": 3,
     "science": 1,
-    "greatPersonPoints": { "Great Writer": 3 },
-    "color": [100, 50, 200]
-  },
-  {
-    "name": "Naian Herbalist",
-    "uniqueTo": "Naianas",
-    "food": 3,
-    "faith": 1,
-    "greatPersonPoints": { "Great Prophet": 2 },
-    "color": [34, 139, 34]
-  },
-  {
-    "name": "Naian Visionary",
-    "uniqueTo": "Naianas",
-    "faith": 3,
-    "culture": 1,
-    "greatPersonPoints": { "Great Prophet": 3 },
-    "color": [138, 43, 226]
-  },
-  {
-    "name": "Naian Astronomer",
-    "uniqueTo": "Naianas",
-    "science": 3,
-    "faith": 1,
-    "greatPersonPoints": { "Great Scientist": 2 },
-    "color": [70, 130, 180]
-  },
-  {
-    "name": "Naian Diplomat",
-    "uniqueTo": "Naianas",
-    "gold": 2,
-    "culture": 2,
-    "greatPersonPoints": { "Great Merchant": 2 },
-    "color": [218, 165, 32]
-  },
-  {
-    "name": "Naian Sculptor",
-    "uniqueTo": "Naianas",
-    "culture": 3,
-    "greatPersonPoints": { "Great Artist": 2 },
-    "color": [205, 92, 92]
-  },
-  {
-    "name": "Naian Guardian",
-    "uniqueTo": "Naianas",
-    "strength": 3,
-    "faith": 1,
-    "greatPersonPoints": { "Great General": 2 },
-    "color": [139, 0, 0]
+    "greatPersonPoints": { "Great Writer": 3 }
   }
 ]
