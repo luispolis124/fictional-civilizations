@@ -3,26 +3,21 @@
     "name": "Sukuia Pyramid",
     "replaces": "Shrine",
     "uniqueTo": "Naianas",
-    "cost": 480,
-    "happiness": 12,
-    "culture": 12,
-    "science": 12,
-    "maintenance": 96,
-    "isNationalWonder": true,
-    "requiredBuildingInAllCities": "Colosseum",
-    "requiredTech": "Horseback Riding",
+    "cost": 65,
+    "faith": 1,
+    "culture": 2,
+    "science": 1,
+    "uniques": ["[+1 Happiness]"],
+    "requiredTech": "Pottery",
     "description": "A grand spiritual monument of the Naianas, channeling divine energy into cultural, scientific, and emotional prosperity."
   },
   {
     "name": "Kuiatonus",
     "replaces": "Aqueduct",
     "uniqueTo": "Naianas",
-    "cost": 80,
-    "hurryCostModifier": 160,
-    "happiness": 2,
-    "uniques": [
-      "40% of food is carried over after a new citizen is born"
-    ],
+    "cost": 100,
+    "hurryCostModifier": 20,
+    "uniques": ["[+2 Happiness]", "[40]% [Food] is carried over after a new citizen is born"],
     "requiredTech": "Engineering",
     "description": "An intricate water system that honors the flow of life, preserving nourishment and joy for future generations."
   }
