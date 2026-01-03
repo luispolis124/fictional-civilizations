@@ -16,24 +16,24 @@
     "introduction": "Our civilization thrives under the gaze of the gods. Witness the glory of the Naianas!",
 
     "neutralHello": "Greetings, traveler. What brings you here?",
-    "neutralLetsHearIt": ["Speak your mind.","What do you propose?","Are you offering something of value?"],
-    "neutralNo": ["We must decline.","That is not acceptable.","The spirits say no."],
-    "neutralYes": ["Agreed. May this benefit us both.","We accept your offer.","Yes, this pleases us."],
+    "neutralLetsHearIt": ["Speak your mind.", "What do you propose?", "Are you offering something of value?"],
+    "neutralNo": ["We must decline.", "That is not acceptable.", "The spirits say no."],
+    "neutralYes": ["Agreed. May this benefit us both.", "We accept your offer.", "Yes, this pleases us."],
 
     "hateHello": "So we meet again, enemy of the Naianas.",
-    "hateLetsHearIt": ["Speak, if you dare.","What nonsense is this?","Go on, amuse me."],
-    "hateNo": ["Never!","We reject your offer again.","You insult us with this."],
-    "hateYes": ["Fine. But don't expect mercy.","Very well, for now.","We accept, but we do not forget."],
+    "hateLetsHearIt": ["Speak, if you dare.", "What nonsense is this?", "Go on, amuse me."],
+    "hateNo": ["Never!", "We reject your offer again.", "You insult us with this."],
+    "hateYes": ["Fine. But don't expect mercy.", "Very well, for now.", "We accept, but we do not forget."],
 
     "afterPeace": "Peace is restored — but do not test us again.",
     "tradeRequest": "Your offer is being considered by Tuzuki.",
 
     "outerColor": [16, 16, 16],
     "innerColor": [255, 200, 200],
-    "icon": "LeopardHeaddress",  // símbolo representando leões ou guepardos no chapéu
+    "icon": "LeopardHeaddress",
 
     "uniqueName": "Long Live the King",
-    "unique": "MANIFEST_DESTINY",
+    "uniques": ["Earn [100]% of defeated units' [Strength] as [Culture]", "[+1] Sight for [All] units"],
     "favoredReligion": "Naianism",
 
     "cities": [
