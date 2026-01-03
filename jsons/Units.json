@@ -3,16 +3,16 @@
     "name": "Phasers",
     "unitType": "Ranged",
     "uniqueTo": "Naianas",
-    "replaces": "Warrior",
+    "replaces": "Bazooka",
     "movement": 2,
     "strength": 90,
-    "rangedStrength": 36,
+    "rangedStrength": 95,
     "range": 2,
     "cost": 500,
     "requiredTech": "Ballistics",
     "requiredResource": "Uranium",
     "promotions": ["Logistics", "Accuracy I"],
-    "attackSound": "phasers",
-    "description": "An elite Naianas ranged unit that channels divine energy into high-powered blasts. Though it replaces the humble Warrior, its advanced technology and spiritual precision make it a formidable force on the battlefield."
+    "attackSound": "laser",
+    "description": "An elite Naianas ranged unit that channels divine energy into high-powered blasts. Its advanced technology and spiritual precision make it a formidable force on the battlefield."
   }
 ]
