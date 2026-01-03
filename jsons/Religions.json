@@ -1,10 +1,10 @@
 [
   {
     "name": "Naianism",
-    "pantheonBelief": "Sacred Jungle Spirits",
-    "founderBelief": "Divine Restoration — +2 Faith for every Jungle tile worked",
-    "followerBelief": "Harmony of Life — +1 Happiness for every 2 followers in a city",
-    "enhancerBelief": "Path of the Ancients — Missionaries can enter rival territory without open borders",
-    "worshipBelief": "Pyramid of Echoes — +2 Culture and +1 Faith from Shrines"
+    "pantheonBelief": "Ancestor Worship",
+    "founderBelief": "Divine Restoration",
+    "followerBelief": "Harmony of Life",
+    "enhancerBelief": "Path of the Ancients",
+    "worshipBelief": "Pyramid of Echoes"
   }
 ]
